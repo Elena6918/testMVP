@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "PREPARE",
+    "slug": "PREPARE",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "orientation": "portrait",
+    "icon": "./app/assets/icons/brain.png",
+    "splash": {
+      "image": "./app/assets/icons/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.prepare.mvp",
+      "buildNumber": "1.0.0"
+    },
+    "web": {
+      "favicon": "./app/assets/icons/favicon.png"
+    }
+  }
+}
